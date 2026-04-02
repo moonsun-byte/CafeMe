@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Makanan</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+<style>
+body {
+    background: url("./img/bg1.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+}
+
+.navbar {
+    background: rgba(255,255,255,0.9);
+}
+
+.fade-in {
+    animation: slideDown 1s ease;
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top fade-in">
+<div class="container">
+
+    <!-- LOGO + NAMA -->
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+        <img src="./img/bg2.jpg" width="40" height="40" class="me-2">
+        CafeKu
+    </a>
+
+    <div class="ms-auto">
+        <a href="menu_makanan.html" class="btn btn-dark btn-sm">Makanan</a>
+        <a href="menu_minuman.html" class="btn btn-dark btn-sm">Minuman</a>
+    </div>
+
+</div>
+</nav>
+
+<div class="container mt-5">
+<h2 class="text-center text-white mb-5 fade-in">Menu Makanan</h2>
+
+<div class="row g-4">
+
+<!-- CARD -->
+<div class="col-md-3" data-aos="flip-right">
+<div class="card h-100 shadow">
+<img src="./img/mie-aceh.jpg">
+<div class="card-body text-center">
+<h5>Mie Aceh</h5>
+<p class="text-muted">Makanan khas Aceh pedas</p>
+<div class="d-flex justify-content-center gap-2">
+<button class="btn btn-success btn-sm">Pesan</button>
+<button class="btn btn-outline-primary btn-sm">Beri Ulasan</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3" data-aos="flip-right">
+<div class="card h-100 shadow">
+<img src="./img/ayam-bakar.jpg">
+<div class="card-body text-center">
+<h5>Ayam Bakar</h5>
+<p class="text-muted">Ayam bakar gurih</p>
+<div class="d-flex justify-content-center gap-2">
+<button class="btn btn-success btn-sm">Pesan</button>
+<button class="btn btn-outline-primary btn-sm">Beri Ulasan</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3" data-aos="flip-right">
+<div class="card h-100 shadow">
+<img src="./img/rendang.webp">
+<div class="card-body text-center">
+<h5>Rendang</h5>
+<p class="text-muted">Masakan Padang</p>
+<div class="d-flex justify-content-center gap-2">
+<button class="btn btn-success btn-sm">Pesan</button>
+<button class="btn btn-outline-primary btn-sm">Beri Ulasan</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3" data-aos="flip-right">
+<div class="card h-100 shadow">
+<img src="./img/nasi-goreng.jfif">
+<div class="card-body text-center">
+<h5>Nasi Goreng</h5>
+<p class="text-muted">Favorit semua orang</p>
+<div class="d-flex justify-content-center gap-2">
+<button class="btn btn-success btn-sm">Pesan</button>
+<button class="btn btn-outline-primary btn-sm">Beri Ulasan</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3" data-aos="flip-right">
+<div class="card h-100 shadow">
+<img src="./img/mie-ramen.jpg">
+<div class="card-body text-center">
+<h5>Mie Ramen</h5>
+<p class="text-muted">Makanan Jepang</p>
+<div class="d-flex justify-content-center gap-2">
+<button class="btn btn-success btn-sm">Pesan</button>
+<button class="btn btn-outline-primary btn-sm">Beri Ulasan</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3" data-aos="flip-right">
+<div class="card h-100 shadow">
+<img src="./img/susi.jfif">
+<div class="card-body text-center">
+<h5>Susi</h5>
+<p class="text-muted">Kuliner Jepang</p>
+<div class="d-flex justify-content-center gap-2">
+<button class="btn btn-success btn-sm">Pesan</button>
+<button class="btn btn-outline-primary btn-sm">Beri Ulasan</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3" data-aos="flip-right">
+<div class="card h-100 shadow">
+<img src="./img/subiga.jpg">
+<div class="card-body text-center">
+<h5>Susi</h5>
+<p class="text-muted">Iga Sapi yang Lezat</p>
+<div class="d-flex justify-content-center gap-2">
+<button class="btn btn-success btn-sm">Pesan</button>
+<button class="btn btn-outline-primary btn-sm">Beri Ulasan</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3" data-aos="flip-right">
+<div class="card h-100 shadow">
+<img src="./img/nasi-padang.jpg">
+<div class="card-body text-center">
+<h5>Nasi Padang</h5>
+<p class="text-muted">Makanan Minang</p>
+<div class="d-flex justify-content-center gap-2">
+<button class="btn btn-success btn-sm">Pesan</button>
+<button class="btn btn-outline-primary btn-sm">Beri Ulasan</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3" data-aos="flip-right">
+<div class="card h-100 shadow">
+<img src="./img/sate-madura.jpeg">
+<div class="card-body text-center">
+<h5>sate Madura</h5>
+<p class="text-muted">Sate Khas Madura</p>
+<div class="d-flex justify-content-center gap-2">
+<button class="btn btn-success btn-sm">Pesan</button>
+<button class="btn btn-outline-primary btn-sm">Beri Ulasan</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init({ duration: 1000 });
+
+document.querySelectorAll(".btn-success").forEach(btn => {
+    btn.onclick = () => alert("Pesanan berhasil ditambahkan!");
+});
+
+document.querySelectorAll(".btn-outline-primary").forEach(btn => {
+    btn.onclick = () => alert("Terima kasih atas ulasannya!");
+});
+</script>
+
+</body>
+</html>
